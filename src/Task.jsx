@@ -1,5 +1,5 @@
 export default function Task(name){
     return (
-        <li>{name.name}</li>
+        <li>Name: {name.name}</li>
     )
 }

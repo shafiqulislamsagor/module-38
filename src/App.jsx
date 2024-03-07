@@ -13,7 +13,11 @@ function App() {
       <Task name={"sakib khan"}></Task>
       <Task name={"obaidul"}></Task>
       {
-        namesArray.map(name => <Task name={name}></Task>)
+        namesArray.map(props => {
+          return (
+            <Task name={props}></Task>
+          )
+        })
       }
     </>
   )
